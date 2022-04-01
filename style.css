@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;0,700;1,300&display=swap");
+
+* {
+  box-sizing: border-box;
+  /* for development */
+  /* comment with command shift 7 */
+  /* unterstrich am anfang deaktiviert / aktiviert */
+  _outline: 1px solid red;
+}
+.body-class {
+  font-family: "poppins", sans-serif;
+  background-color: #d6d6d6;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+p {
+  margin: 0px 0px 5px 0px;
+}
+header {
+  padding: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff90;
+  font-weight: 300;
+  font-size: 15px;
+  border-radius: 15px;
+  box-shadow: 7px 3px 13px 0px rgba(0, 0, 0, 0.1);
+}
+
+.main-title {
+  margin: 0 0 0 0;
+}
+
+h2 {
+  margin: 0px 0px 15px 0px;
+}
+h3 {
+  margin: 0px 0px 15px 0px;
+}
+section {
+  padding: 40px;
+  display: flex;
+  gap: 40px;
+  background-color: #dedede;
+  font-weight: 300;
+  font-size: 16px;
+  border-radius: 15px;
+  box-shadow: 7px 3px 13px 0px rgba(0, 0, 0, 0.1);
+}
+.menue--link {
+  _text-decoration: none;
+  padding: 0 0 0 40px;
+  font-weight: 500;
+  font-size: 20px;
+  color: rgb(31, 152, 116);
+  font-weight: 600;
+}
+.email {
+  font-size: 16px;
+  padding: 0 0 0 0;
+}
+.mainpic {
+  border-radius: 10px;
+  width: 40%;
+  height: 40%;
+  box-shadow: inset 7px 3px 18px 4px rgb(0, 0, 0);
+}
+
+.social-section {
+  display: flex;
+  flex-grow: 1;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+.social-container {
+  width: 45%;
+  height: 300px;
+  background-color: #ffffffdd;
+  flex-grow: 1;
+  padding: 50px;
+}
+
+.infodetails {
+  padding: 20px;
+}
+
+.socialwrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.socialpic {
+  border-radius: 10px;
+  height: 100%;
+  background-color: #dedede;
+  box-shadow: inset 7px 3px 18px 4px rgb(192, 192, 192);
+}
+
+.atmyaccount {
+  color: rgb(158, 158, 158);
+}
+
+.icon-wrapper {
+}
+
+.atmyaccount-icon {
+  display: flex;
+  justify-content: flex-end;
+  width: 40px;
+  align-self: flex-end;
+}
+
+.social-image-container {
+  height: 100%;
+}

@@ -4,27 +4,41 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Homepage</title>
+    <title>Mr Franz Broetchen</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
+  <body class="body-class">
+    <!-- main header -->
     <header>
-      <h1>Call me Franzbrötchen</h1>
-      <nav>
-        <div><a href="#WhoIam">Who I am</a></div>
-        <div><a href="#Contact">Contact</a></div>
-      </nav>
+        <h1 class="main-title">Call me Franzbrötchen</h1>
+        <nav>
+          <a class="menue--link" href="#Aboutme">About me</a>
+          <a class="menue--link" href="#Contact">Social</a>
+        </nav>
     </header>
-    <main>
+    <!-- main content -->
       <section>
-        <div>
-          <img src="images/franzbrotchen.jpeg" alt="Franz" width="50%" />
+          <img class="mainpic" src="images/franzbrotchen.jpeg" alt="Franz" />
+          <div>
+            <h2><b>Details</b></h2>
+            <p>First name: <b> Franz </b></p>
+            <p>Last name: <b> Brötchen</b></p>
+            <p>Birth date: <b>Today</b></p>
+            <p>Birth place: <b>Hamburg</b></p>
+            <p>Taste: <b>Classic</b></p>
+            <p>Eye color: <b> brown</b></p>
+            <p>Phone: <b> 187/111333555</b></p>
+            <p>Email: <a class="menue--link email" href="mailto:franz@broetchen.de"><b>franz@broetchen.de</b></a></p>
+          </div>
+      </section>
+      <section>
+          <div>
+            <h2 id="Aboutme"><b>About me</b></h2>
           <p>
             I am a funny guy who likes to eat Franzbrötchen for breakfast. Want
-            to eat Franzbrötchen with me? Cantact me!
+            to eat Franzbrötchen with me? Go ahead and contact me! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora eaque omnis, eos in nemo deleniti a adipisci ea neque consectetur sequi quos beatae nihil doloremque totam numquam quaerat quo inventore!empora eaque omnis, eos in nemo deleniti a adipisci ea neque consectetur sequi quos beatae nihil doloremque totam numquam quaerat quo inventore! empora eaque omnis, eos in nemo deleniti a adipisci ea neque consectetur sequi quos beatae nihil doloremque totam numquam quaerat quo inventore! ontact me! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora eaque omnis, eos in nemo deleniti a adipisci ea neque consectetur sequi quos beatae nihil doloremque totam numquam quaerat quo inventore!empora eaque omnis, eos in nemo deleniti a adipisci ea neque consectetur sequi quos beatae nihil doloremque totam numquam quaerat quo inventore! empora eaque omnis, eos in nemo deleniti a adipisci ea neque consectetur sequi quos beatae nihil doloremque totam numquam quaerat quo inventore!
           </p>
-        </div>
-        <div>
-          <p>Besides Franzbrötchen I also like to eat:</p>
+          <p><b>Besides Franzbrötchen I also like to eat:</b></p>
           <ul>
             <li><i>Big Mac</i></li>
             <li><i>Bolo</i></li>
@@ -32,113 +46,91 @@
           </ul>
         </div>
       </section>
-      <section>
-        <fieldset>
-          <legend><b>Contact</b></legend>
-          <p>Phone: 187/111333555</p>
-          <p>
-            Email: <a href="mailto:franz@broetchen.de">franz@broetchen.de</a>
-          </p>
-        </fieldset>
-      </section>
-      <section>
+      <div id="Contact" class="social-section">
+      <section class="social-container">
+        <div class="social-image-container">
         <a href="https://www.instagram.com" target="_blank">
-          <img
+          <img class="socialpic"
             src="images/icons8-instagram-512.png"
-            alt="instagram"
-            width="50px"
-          />
-        </a>
-        <a href="https://www.facebook.com" target="_blank">
-          <img
-            src="images/icons8-facebook-512.svg"
-            alt="facebook"
-            width="50px"
-          />
-        </a>
-        <a href="https://www.github.com" target="_blank">
-          <img src="images/icons8-github-512.svg" alt="github" width="50px" />
+            alt="instagram"/>
+          </a></div>
+          <div>
+        <h3>Instagram</h3>
+        <p>See my cool Repos.</p>
+        <a class="atmyaccount">@myaccount</a>
+        <a href="https://www.instagram.com">
+          <img class="atmyaccounticon"src="images/icons8-eingekreist-rechts-2-96.png" alt="decorative" />
         </a>
       </section>
-    </main>
-    <footer></footer>
+      <section class="social-container">
+        <div>
+        <a href="https://www.instagram.com" target="_blank">
+          <img class="socialpic"
+            src="images/icons8-github-512.svg"
+            alt="instagram"/>
+          </a></div>
+          <div>
+        <h3>Github</h3>
+        <p>See my cool Repos.</p>
+        <a class="atmyaccount">@myaccount</a>
+        <a href="https://www.instagram.com">
+          <img class="atmyaccounticon"src="images/icons8-eingekreist-rechts-2-96.png" alt="decorative" />
+        </a>
+      </section>
+      <section class="social-container">
+        <div>
+        <a  href="https://www.facebook.com" target="_blank">
+          <img class="socialpic"
+            src="images/icons8-facebook-512.svg"
+            alt="facebook"/>
+          </a></div>
+          <div>
+        <h3>Facebook</h3>
+        <p>See my cool Repos.</p> 
+        <a class="atmyaccount">@myaccount</a>
+        <a href="https://www.instagram.com">
+          <img class="atmyaccounticon"src="images/icons8-eingekreist-rechts-2-96.png" alt="decorative" />
+        </a>
+      </section>
+      <section class="social-container">
+        <div>
+          <a href="https://www.instagram.com" target="_blank">
+          <img class="socialpic"
+            src="icons8-linkedin-512.png"
+            alt="instagram"/>
+          </a>
+        </div>
+        <div class="social-text">
+        <h3>LinkedIn</h3>
+        <p>See my cool Repos.</p>
+        <a class="atmyaccount">@myaccount</a>
+        </div>
+        <a class="icon-wrapper" href="https://www.linkedin.com">
+          <img class="atmyaccount-icon"src="images/icons8-eingekreist-rechts-2-96.png" alt="decorative" />
+        </a>
+      </section>
+      <section>
+        <div>
+          <h2><b>Curiculum Vitae</b></h2>
+        <p>
+          I am a funny guy who likes to eat Franzbrötchen for breakfast. Want
+          to eat Franzbrötchen with me? Go ahead and contact me! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora eaque omnis, eos in nemo deleniti a adipisci ea neque consectetur sequi quos beatae nihil doloremque totam numquam quaerat quo inventore!empora eaque omnis, eos in nemo deleniti a adipisci ea neque consectetur sequi quos beatae nihil doloremque totam numquam quaerat quo inventore! empora eaque omnis, eos in nemo deleniti a adipisci ea neque consectetur sequi quos beatae nihil doloremque totam numquam quaerat quo inventore! ontact me! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora eaque omnis, eos in nemo deleniti a adipisci ea neque consectetur sequi quos beatae nihil doloremque totam numquam quaerat quo inventore!empora eaque omnis, eos in nemo deleniti a adipisci ea neque consectetur sequi quos beatae nihil doloremque totam numquam quaerat quo inventore! empora eaque omnis, eos in nemo deleniti a adipisci ea neque consectetur sequi quos beatae nihil doloremque totam numquam quaerat quo inventore!
+        </p>
+        <p><b>Work experience: </b></p>
+        <ul>
+          <li><i>2021-2022: Dough</i></li>
+          <li><i>2018-2021: Dough</i></li>
+          <li><i>2010-2018: Dough</i></li>
+        </ul>
+        <p><b>Education: </b></p>
+        <ul>
+          <li><i>2021-2022: Kleine Konditorei</i></li>
+          <li><i>2010-2018: Backhus</i></li>
+          <li><i>2018-2021: Baker man is baking bread</i></li>
+          
+        </ul>
+      </div>
+    </section>
+    </div>
   </body>
 </html>
-
-<!--This is a comment. Comments are not displayed in the browser
-<!DOCTYPE html>
-<html lang="de">
-  <head>
-    <title>Hallo</title>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="This is my webpage" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <meta name="charset" content="utf-8" />
-    <style rel="stylesheet">
-        body{
-            background-color: rgb(144, 124, 158);
-        }
-    </style>
-    </style>
-  </head>
-  <body>
-      <header>
-          <nav>
-              <a href="#about">Über mich</a> <br>
-              <a href="https://www.candlesofwisdom.com">Kerzen</a>
-          </nav>
-    </header>
-    <main>
-    <article>
-        <header>
-            <h2>Artikelt überschrift</h2>
-            <h2>Artikelt überschrift</h2>
-        </header>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero incidunt, natus, omnis a expedita consectetur fugit quo at corrupti quaerat totam error quidem laudantium distinctio illo recusandae sequi? Dolor, sit?</p>
-    </article>
-    <article>
-        <header>
-            <h3>Artikelt überschrift</h3>
-        </header>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero incidunt, natus, omnis a expedita consectetur fugit quo at corrupti quaerat totam error quidem laudantium distinctio illo recusandae sequi? Dolor, sit?</p>
-    </article><article>
-        <header>
-            <h4>Artikelt überschrift</h4>
-        </header>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero incidunt, natus, omnis a expedita consectetur fugit quo at corrupti quaerat totam error quidem laudantium distinctio illo recusandae sequi? Dolor, sit?</p>
-    </article><article>
-        <header>
-            <h5>Artikelt überschrift</h5>
-        </header>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero incidunt, natus, omnis a expedita consectetur fugit quo at corrupti quaerat totam error quidem laudantium distinctio illo recusandae sequi? Dolor, sit?</p>
-    </article><article>
-        <header>
-            <h6>Artikelt überschrift</h6>
-        </header>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero incidunt, natus, omnis a expedita consectetur fugit quo at corrupti quaerat totam error quidem laudantium distinctio illo recusandae sequi? Dolor, sit?</p>
-    </article><article>
-        <header id="about">
-            <h6>Artikelt überschrift</h6>
-        </header>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero incidunt, natus, omnis a expedita consectetur fugit quo at corrupti quaerat totam error quidem laudantium distinctio illo recusandae sequi? Dolor, sit?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero incidunt, natus, omnis a expedita consectetur fugit quo at corrupti quaerat totam error quidem laudantium distinctio illo recusandae sequi? Dolor, sit?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero incidunt, natus, omnis a expedita consectetur fugit quo at corrupti quaerat totam error quidem laudantium distinctio illo recusandae sequi? Dolor, sit?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero incidunt, natus, omnis a expedita consectetur fugit quo at corrupti quaerat totam error quidem laudantium distinctio illo recusandae sequi? Dolor, sit?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero incidunt, natus, omnis a expedita consectetur fugit quo at corrupti quaerat totam error quidem laudantium distinctio illo recusandae sequi? Dolor, sit?</p>
-    </article>
-    <form action="">
-      <label>Username <br /><input /> </label>
-      <br />
-      <br />
-      <label>Email <br /><input type="email"/> </label>
-      <br />
-      <br />
-      <label for="pw">Passwort </label> <br />
-      <input type="password" id="pw" />
-    </form>
-</main>
-    <footer>
-        <nav>
-            <br>
-            <a href="#">Zurück nach oben</a> 
-        </nav>
-  </footer>
-  </body>
-</html>
--->
