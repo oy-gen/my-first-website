@@ -5,7 +5,7 @@
   /* for development */
   /* comment with command shift 7 */
   /* unterstrich am anfang deaktiviert / aktiviert */
-  outline: 1px solid red;
+  _outline: 1px solid red;
 }
 .body-class {
   font-family: "poppins", sans-serif;
